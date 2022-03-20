@@ -32,6 +32,13 @@ body{
     animation-timing-function: ease-in-out;
 }
 
+.noanim {
+    font-family: Calibri;
+    color: white;
+    text-align: center;
+    font-size: 76px;
+}
+
 @keyframes floating {
     0% { transform: translate(0,  0px); }
     50%  { transform: translate(0, 15px); }
@@ -100,5 +107,6 @@ button{
 }
 
 button:hover{
-    font-size: 65px;
+    font-size: 60px;
 }
+
